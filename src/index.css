@@ -1,0 +1,357 @@
+/* BRICS InfraPulse AI — Claymorphism & Warm Cream / Ivory Design System */
+
+:root {
+  /* Warm Cream & White Clay Palette */
+  --bg-primary: #f6f3eb;
+  --bg-secondary: #eee9dc;
+  --bg-cream: #faf8f2;
+  --bg-card: #ffffff;
+  --bg-card-soft: #fcfbfa;
+  --bg-input: #ffffff;
+  --bg-clay: #f4f0e6;
+
+  /* Claymorphic Shadows: Outer 3D Drop + Inner Soft Highlight */
+  --clay-shadow-sm: 
+    4px 6px 12px rgba(180, 165, 145, 0.22), 
+    -4px -4px 10px rgba(255, 255, 255, 0.9),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.8),
+    inset -2px -2px 4px rgba(180, 165, 145, 0.12);
+
+  --clay-shadow-md: 
+    8px 14px 28px rgba(175, 160, 138, 0.25), 
+    -6px -6px 16px rgba(255, 255, 255, 0.95),
+    inset 3px 3px 6px rgba(255, 255, 255, 0.9),
+    inset -3px -3px 6px rgba(180, 165, 145, 0.15);
+
+  --clay-shadow-lg: 
+    14px 22px 42px rgba(165, 150, 125, 0.28), 
+    -10px -10px 24px rgba(255, 255, 255, 1),
+    inset 4px 4px 8px rgba(255, 255, 255, 0.95),
+    inset -4px -4px 8px rgba(170, 155, 130, 0.18);
+
+  --clay-shadow-inset: 
+    inset 4px 4px 8px rgba(180, 165, 145, 0.28), 
+    inset -4px -4px 8px rgba(255, 255, 255, 0.9);
+
+  /* Clay Accent Colors */
+  --clay-cyan: #0284c7;
+  --clay-cyan-bg: #e0f2fe;
+  --clay-teal: #0d9488;
+  --clay-teal-bg: #ccfbf1;
+  --clay-indigo: #4f46e5;
+  --clay-indigo-bg: #e0e7ff;
+  --clay-emerald: #059669;
+  --clay-emerald-bg: #d1fae5;
+  --clay-amber: #d97706;
+  --clay-amber-bg: #fef3c7;
+  --clay-rose: #e11d48;
+  --clay-rose-bg: #ffe4e6;
+  --clay-purple: #7c3aed;
+  --clay-purple-bg: #f3e8ff;
+
+  /* Typography Colors (High Contrast on Cream) */
+  --text-primary: #1c1917;
+  --text-secondary: #44403c;
+  --text-muted: #78716c;
+  --text-subtle: #a8a29e;
+  --text-inverse: #ffffff;
+
+  /* Fonts */
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Borders & Radius */
+  --border-subtle: rgba(180, 165, 145, 0.25);
+  --border-clay: rgba(255, 255, 255, 0.85);
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Reset & Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Subtle Warm Background Depth */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: 
+    radial-gradient(circle at 10% 15%, rgba(224, 242, 254, 0.5) 0%, transparent 45%),
+    radial-gradient(circle at 90% 85%, rgba(254, 243, 199, 0.4) 0%, transparent 50%),
+    radial-gradient(circle at 50% 40%, rgba(209, 250, 229, 0.3) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography Utility */
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+/* Claymorphic Panel Card */
+.glass-panel {
+  background: var(--bg-card);
+  border: 2px solid var(--border-clay);
+  border-radius: var(--radius-md);
+  box-shadow: var(--clay-shadow-md);
+  transition: all var(--transition-normal);
+}
+
+.glass-panel:hover {
+  box-shadow: var(--clay-shadow-lg);
+  transform: translateY(-2px);
+}
+
+/* Clay Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  border: 2px solid var(--border-clay);
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  user-select: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+  color: #ffffff;
+  box-shadow: 
+    4px 8px 18px rgba(2, 132, 199, 0.35), 
+    inset 2px 2px 4px rgba(255, 255, 255, 0.4),
+    inset -2px -2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    6px 12px 24px rgba(2, 132, 199, 0.45), 
+    inset 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary:active {
+  transform: translateY(1px);
+  box-shadow: var(--clay-shadow-inset);
+}
+
+.btn-emerald {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  color: #ffffff;
+  box-shadow: 
+    4px 8px 18px rgba(5, 150, 105, 0.35), 
+    inset 2px 2px 4px rgba(255, 255, 255, 0.4),
+    inset -2px -2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn-emerald:hover {
+  transform: translateY(-2px);
+  box-shadow: 6px 12px 24px rgba(5, 150, 105, 0.45);
+}
+
+.btn-secondary {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  box-shadow: var(--clay-shadow-sm);
+  border: 2px solid var(--border-clay);
+}
+
+.btn-secondary:hover {
+  background: var(--bg-cream);
+  transform: translateY(-2px);
+  box-shadow: var(--clay-shadow-md);
+}
+
+.btn-secondary:active {
+  transform: translateY(1px);
+  box-shadow: var(--clay-shadow-inset);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-muted);
+  border-color: transparent;
+}
+
+.btn-ghost:hover {
+  color: var(--text-primary);
+  background: rgba(180, 165, 145, 0.15);
+}
+
+/* Clay Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  box-shadow: 
+    2px 3px 6px rgba(180, 165, 145, 0.2), 
+    inset 1px 1px 2px rgba(255, 255, 255, 0.9);
+}
+
+.badge-cyan {
+  background: var(--clay-cyan-bg);
+  color: #0369a1;
+  border: 1px solid rgba(2, 132, 199, 0.25);
+}
+
+.badge-emerald {
+  background: var(--clay-emerald-bg);
+  color: #047857;
+  border: 1px solid rgba(5, 150, 105, 0.25);
+}
+
+.badge-amber {
+  background: var(--clay-amber-bg);
+  color: #b45309;
+  border: 1px solid rgba(217, 119, 6, 0.25);
+}
+
+.badge-rose {
+  background: var(--clay-rose-bg);
+  color: #be123c;
+  border: 1px solid rgba(225, 29, 72, 0.25);
+}
+
+.badge-purple {
+  background: var(--clay-purple-bg);
+  color: #6d28d9;
+  border: 1px solid rgba(124, 58, 237, 0.25);
+}
+
+.badge-ghost {
+  background: #e7e2d6;
+  color: #78716c;
+}
+
+/* Live Pulse Dot */
+.live-pulse-dot {
+  width: 9px;
+  height: 9px;
+  background-color: #059669;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0 0 6px rgba(5, 150, 105, 0.6);
+}
+
+.live-pulse-dot::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: rgba(5, 150, 105, 0.35);
+  animation: pulse-ring 2s infinite cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.6); opacity: 1; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* Custom Scrollbar for Clay UI */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee8dc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cfc6b6;
+  border-radius: 4px;
+  border: 1px solid #f6f3eb;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b5aba0;
+}
+
+/* Leaflet Container Clay Theme Overrides */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #f6f3eb !important;
+  font-family: var(--font-body) !important;
+  border-radius: var(--radius-md);
+  z-index: 1;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #1c1917 !important;
+  border: 2px solid #ffffff !important;
+  border-radius: var(--radius-sm) !important;
+  box-shadow: 8px 14px 28px rgba(160, 145, 125, 0.3) !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

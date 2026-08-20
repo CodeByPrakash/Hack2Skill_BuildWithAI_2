@@ -1,0 +1,335 @@
+/* Map View & Geospatial Intelligence Claymorphic CSS */
+
+.map-view-layout {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 120px);
+  overflow: hidden;
+  background: #f6f3eb;
+}
+
+/* Left Sidebar - Claymorphic National Stats & Regions */
+.map-sidebar {
+  width: 380px;
+  min-width: 380px;
+  height: 100%;
+  background: #fbf9f4;
+  border-right: 2px solid rgba(220, 210, 195, 0.6);
+  box-shadow: 4px 0 20px rgba(180, 165, 145, 0.15);
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  overflow-y: auto;
+}
+
+.map-sidebar-header {
+  padding: 20px;
+  border-bottom: 1px solid rgba(220, 210, 195, 0.5);
+  background: #ffffff;
+}
+
+.country-summary-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.country-flag-huge {
+  font-size: 38px;
+  filter: drop-shadow(2px 4px 6px rgba(180, 165, 145, 0.4));
+}
+
+.country-headline h2 {
+  font-size: 19px;
+  font-weight: 800;
+  color: #1c1917;
+}
+
+.country-headline p {
+  font-size: 12px;
+  color: #78716c;
+}
+
+.dpi-score-badge {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e0f2fe;
+  border: 1px solid rgba(2, 132, 199, 0.25);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.9);
+}
+
+.dpi-score-val {
+  font-weight: 900;
+  color: #0369a1;
+  font-size: 16px;
+}
+
+/* Quick Metrics Row */
+.sidebar-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 18px 20px;
+  border-bottom: 1px solid rgba(220, 210, 195, 0.5);
+}
+
+.stat-item {
+  background: #ffffff;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--clay-shadow-sm);
+  border: 1px solid var(--border-clay);
+}
+
+.stat-label {
+  font-size: 11px;
+  color: #78716c;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.stat-value {
+  font-size: 17px;
+  font-weight: 900;
+  color: #1c1917;
+  margin-top: 2px;
+}
+
+/* Province List */
+.sidebar-section-title {
+  padding: 16px 20px 8px;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #0369a1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.province-list {
+  padding: 0 14px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.province-card {
+  background: #ffffff;
+  border: 2px solid var(--border-clay);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  cursor: pointer;
+  box-shadow: var(--clay-shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.province-card:hover {
+  box-shadow: var(--clay-shadow-md);
+  transform: translateY(-2px);
+  border-color: #38bdf8;
+}
+
+.province-card.active {
+  background: #f0f9ff;
+  border-color: #0284c7;
+  box-shadow: 
+    6px 10px 20px rgba(2, 132, 199, 0.2),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.9);
+}
+
+.province-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.province-name {
+  font-size: 14px;
+  font-weight: 800;
+  color: #1c1917;
+}
+
+.deficit-bars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.deficit-mini-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.deficit-mini-label {
+  font-size: 9px;
+  color: #78716c;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.mini-progress-bg {
+  height: 6px;
+  background: #e7e2d6;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.mini-progress-fill {
+  height: 100%;
+  border-radius: 3px;
+}
+
+/* Map Canvas Container */
+.map-canvas-wrapper {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+/* Floating Layer & Sector Control Bar */
+.map-floating-controls {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 440px;
+}
+
+.layer-toggle-panel {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--border-clay);
+  box-shadow: var(--clay-shadow-md);
+}
+
+.control-title {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #78716c;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.layer-buttons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.layer-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  background: #f6f3eb;
+  border: 1px solid rgba(220, 210, 195, 0.6);
+  color: #57534e;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-align: left;
+}
+
+.layer-btn:hover {
+  background: #eee8dc;
+  color: #1c1917;
+}
+
+.layer-btn.active {
+  background: #e0f2fe;
+  border-color: #0284c7;
+  color: #0369a1;
+  box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.9);
+}
+
+/* Sector Filter Pills */
+.sector-pills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.sector-pill-btn {
+  padding: 5px 10px;
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  box-shadow: var(--clay-shadow-sm);
+}
+
+/* Floating Selected Hotspot Popup Card */
+.hotspot-floating-card {
+  position: absolute;
+  bottom: 24px;
+  left: 400px;
+  right: 24px;
+  z-index: 1000;
+  background: #ffffff;
+  border: 2px solid var(--border-clay);
+  border-radius: var(--radius-md);
+  padding: 20px 24px;
+  box-shadow: var(--clay-shadow-lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.hotspot-info-left {
+  flex: 1;
+}
+
+.hotspot-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.hotspot-location-title {
+  font-size: 17px;
+  font-weight: 800;
+  color: #1c1917;
+}
+
+.hotspot-verbatim {
+  font-size: 13px;
+  color: #44403c;
+  font-style: italic;
+  margin-top: 4px;
+  max-width: 750px;
+}
+
+.hotspot-meta-stats {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #78716c;
+}
