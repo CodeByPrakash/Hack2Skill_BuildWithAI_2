@@ -252,7 +252,7 @@ Participating in **Code for Communities 2.0 (Hack2Skill)** under **Track 1: AI f
 * **DPGA & Beckn Protocol Adherence:** Championing 100% compliance with UN Digital Public Goods Alliance criteria, open data schemas (JSON-LD), and interoperable sovereign protocols.
 
 ### 👤 Leadership & Team Profile
-* **Lead Architect & Full-Stack DPG Engineer:** [**Prakash (@CodeByPrakash)**](https://github.com/CodeByPrakash)
+* **Lead Architect & Full-Stack DPG Engineer:** [**Prakash (@CodeByPrakash)**](https://github.com/CodeByPrakash) | [**Prakash**](https://omprakashbehera.me/)
   * *Focus:* System Architecture, Geospatial GIS Pipelines, Multilingual AI Engine, Mathematical Optimization & UX Design.
 * **Repository:** [**`https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2`**](https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2)
 * **Hackathon:** Code for Communities 2.0 (Hack2Skill)
