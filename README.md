@@ -19,7 +19,7 @@
 | 📊 **Gamma AI Presentation Deck** | 10-card, copy-paste ready presentation pitch deck refined for [Gamma.app](https://gamma.app). | [**`GAMMA_AI_PRESENTATION_DECK.md`**](./GAMMA_AI_PRESENTATION_DECK.md) |
 | 🎥 **Video Demo & Pitch Script** | Word-for-word spoken pitch, scene timeline, on-screen text popups, and recording instructions. | [**`VIDEO_DEMO_SCRIPT.md`**](./VIDEO_DEMO_SCRIPT.md) |
 | 🎬 **Strategic Documentary Blueprint** | Deep-dive strategic analysis from the **CEO**, **CMO**, and **CTO / Developer** perspectives. | [**`DOCUMENTARY_AND_STRATEGIC_BLUEPRINT.md`**](./DOCUMENTARY_AND_STRATEGIC_BLUEPRINT.md) |
-| **Demo Video** | Google Drive Uploaded Video Link | [**`Video`**](!(https://drive.google.com/file/d/1f6vi3iiabITak7TNTMVb8WE6V2H_YBbi/view?usp=sharing)) |
+| **Demo Video** | Google Drive Uploaded Video Link | [**`Video`**](https://drive.google.com/file/d/1f6vi3iiabITak7TNTMVb8WE6V2H_YBbi/view?usp=sharing) |
 
 ---
 
