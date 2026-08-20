@@ -1,0 +1,249 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://digitalpublicgoods.net/standard/v1.1",
+    "https://brics-dpi.org/standards/civic-infra/v2"
+  ],
+  "@type": "DigitalPublicInfrastructureRegistry",
+  "countryCode": "IN",
+  "countryName": "India",
+  "nationalDpiReadiness": 94,
+  "generatedAt": "2026-08-20T14:17:01.994Z",
+  "interoperabilityProtocol": "Beckn-DPI-v2.1",
+  "demographicSummary": {
+    "totalPopulation": "1.43 Billion",
+    "urbanShare": "36.4%",
+    "ruralShare": "63.6%",
+    "povertyHeadcount": "11.9%"
+  },
+  "citizenRequestsDataset": [
+    {
+      "@type": "CitizenInfrastructureDemand",
+      "dpiId": "DPI-IN-2026-4368",
+      "verificationToken": "SHA256:7ef590e8859140",
+      "sector": "health",
+      "urgencyIndex": 96,
+      "timestamp": "Just now",
+      "intakeChannel": "whatsapp",
+      "geoCoordinates": [
+        26.775493830962443,
+        80.96381232713726
+      ],
+      "anonymizedVerbatimText": "Local primary health center has no resident doctor or medicines. Pregnant women must travel 45km.",
+      "englishStandardizedText": "[AI Multilingual Synthesis]: Local primary health center has no resident doctor or medicines. Pregnant women must travel 45km.",
+      "estimatedAffectedPopulation": 5141,
+      "status": "policy_prioritized"
+    },
+    {
+      "@type": "CitizenInfrastructureDemand",
+      "dpiId": "DPI-IN-2026-9807",
+      "verificationToken": "SHA256:82d36ef28580a4",
+      "sector": "water",
+      "urgencyIndex": 83,
+      "timestamp": "Just now",
+      "intakeChannel": "whatsapp",
+      "geoCoordinates": [
+        26.86075655374259,
+        80.89179779931438
+      ],
+      "anonymizedVerbatimText": "Our community tap is supplying brackish saline water for 2 months. Over 600 families need clean tap connection.",
+      "englishStandardizedText": "[AI Multilingual Synthesis]: Our community tap is supplying brackish saline water for 2 months. Over 600 families need clean tap connection.",
+      "estimatedAffectedPopulation": 2956,
+      "status": "policy_prioritized"
+    },
+    {
+      "@type": "CitizenInfrastructureDemand",
+      "dpiId": "DPI-IN-2026-1001",
+      "verificationToken": "SHA256:7f4c9a882e3b1c0a9",
+      "sector": "water",
+      "urgencyIndex": 92,
+      "timestamp": "10 mins ago",
+      "intakeChannel": "voice",
+      "geoCoordinates": [
+        25.3582,
+        82.8841
+      ],
+      "district": "Varanasi",
+      "anonymizedVerbatimText": "हमारे गांव में 4 महीने से हैंडपंप खराब हैं और नल से खारा पानी आ रहा है। 800 से ज्यादा परिवार 3 किलोमीटर दूर जाकर पानी भर रहे हैं। कृपया जल जीवन मिशन का कनेक्शन जल्दी चालू करें।",
+      "englishStandardizedText": "Handpumps in our village have been broken for 4 months and taps are supplying brackish saline water. Over 800 families are walking 3 km for water. Please activate the Jal Jeevan Mission connection immediately.",
+      "estimatedAffectedPopulation": 3800,
+      "status": "clustered"
+    },
+    {
+      "@type": "CitizenInfrastructureDemand",
+      "dpiId": "DPI-IN-2026-1002",
+      "verificationToken": "SHA256:88ad3b1e9c20a4b7",
+      "sector": "transport",
+      "urgencyIndex": 95,
+      "timestamp": "25 mins ago",
+      "intakeChannel": "whatsapp",
+      "geoCoordinates": [
+        26.1209,
+        85.3944
+      ],
+      "district": "Muzaffarpur",
+      "anonymizedVerbatimText": "बाढ़ के बाद मुख्य संपर्क पुल टूट गया है। एम्बुलेंस और स्कूल की गाड़ियां नहीं आ पा रही हैं। किसान अपनी फसल मंडी तक नहीं ले जा पा रहे हैं। तुरंत पक्की सड़क और पुल चाहिए।",
+      "englishStandardizedText": "The main connecting bridge was destroyed after the monsoon floods. Ambulances and school buses cannot access the ward. Farmers are unable to transport crops to the mandi. Urgent need for concrete bridge and paved roadway.",
+      "estimatedAffectedPopulation": 12500,
+      "status": "policy_prioritized"
+    },
+    {
+      "@type": "CitizenInfrastructureDemand",
+      "dpiId": "DPI-IN-2026-1003",
+      "verificationToken": "SHA256:39f1c7d2e85a0b94",
+      "sector": "energy",
+      "urgencyIndex": 84,
+      "timestamp": "42 mins ago",
+      "intakeChannel": "web",
+      "geoCoordinates": [
+        18.2104,
+        75.1979
+      ],
+      "district": "Solapur",
+      "anonymizedVerbatimText": "शेती पंपासाठी दिवसा फक्त 2 तास वीज मिळते. रात्री वीज आल्यामुळे शेतकऱ्यांना साप आणि वन्यप्राण्यांचा धोका असतो. सौर कृषी फीडरची तातडीने गरज आहे.",
+      "englishStandardizedText": "Agricultural water pumps only receive 2 hours of electricity during daylight. Due to night-only power, farmers face severe risks from wild animals. Urgently request solar microgrid agri-feeder.",
+      "estimatedAffectedPopulation": 6200,
+      "status": "budget_allocated"
+    },
+    {
+      "@type": "CitizenInfrastructureDemand",
+      "dpiId": "DPI-IN-2026-1004",
+      "verificationToken": "SHA256:2b901fc88a1e74de",
+      "sector": "health",
+      "urgencyIndex": 89,
+      "timestamp": "1 hour ago",
+      "intakeChannel": "telegram",
+      "geoCoordinates": [
+        26.1955,
+        71.2464
+      ],
+      "district": "Barmer",
+      "anonymizedVerbatimText": "प्राथमिक स्वास्थ्य केंद्र में 2 साल से कोई डॉक्टर या अल्ट्रासाउंड सुविधा नहीं है। प्रसव के लिए महिलाओं को 65 किलोमीटर दूर जाना पड़ता है। टेलीमेडिसिन कियोस्क और डॉक्टर तैनात करें।",
+      "englishStandardizedText": "The Primary Health Center has lacked a resident doctor or ultrasound for 2 years. Pregnant women must travel 65 km across the desert for delivery. Deploy telemedicine kiosk and medical staff.",
+      "estimatedAffectedPopulation": 18400,
+      "status": "under_construction"
+    },
+    {
+      "@type": "CitizenInfrastructureDemand",
+      "dpiId": "DPI-IN-2026-1005",
+      "verificationToken": "SHA256:0d18e39fba248c51",
+      "sector": "digital",
+      "urgencyIndex": 76,
+      "timestamp": "2 hours ago",
+      "intakeChannel": "sms",
+      "geoCoordinates": [
+        24.8333,
+        92.7789
+      ],
+      "district": "Silchar",
+      "anonymizedVerbatimText": "আমাদের স্কুলে কোনো ইন্টারনেট বা ৫জি টাওয়ার নেই। ছাত্ররা অনলাইন শিক্ষা ও সরকারি সুবিধা থেকে বঞ্চিত হচ্ছে। দ্রুত অপটিক্যাল ফাইবার সংযোগ দেওয়া হোক।",
+      "englishStandardizedText": "Our school cluster has no internet or cellular connectivity. Students are cut off from digital education and government DPI services. Request high-speed optical fiber connection under BharatNet.",
+      "estimatedAffectedPopulation": 4100,
+      "status": "clustered"
+    },
+    {
+      "@type": "CitizenInfrastructureDemand",
+      "dpiId": "DPI-IN-2026-1006",
+      "verificationToken": "SHA256:71a2e99f483c6b22",
+      "sector": "transport",
+      "urgencyIndex": 81,
+      "timestamp": "3 hours ago",
+      "intakeChannel": "voice",
+      "geoCoordinates": [
+        26.8317,
+        83.5292
+      ],
+      "district": "Gorakhpur",
+      "anonymizedVerbatimText": "गन्ना किसानों की ट्रॉलियां रोजाना 4 घंटे जाम में फंसती हैं क्योंकि रेलवे क्रॉसिंग पर ओवरब्रिज नहीं है। कृपया नया रेल ओवरब्रिज पास करें।",
+      "englishStandardizedText": "Sugarcane farmer tractor-trolleys are trapped in 4-hour daily gridlocks due to lack of a railway flyover. Request construction of a rail overbridge (ROB) under Gati Shakti.",
+      "estimatedAffectedPopulation": 22000,
+      "status": "policy_prioritized"
+    }
+  ],
+  "recommendedProjectsDossier": [
+    {
+      "@type": "AIRecommendedInfrastructureInitiative",
+      "projectCode": "PRJ-IN-01",
+      "title": "Purvanchal Smart Jal-DPI: Distributed Solar Water Purification & Metered Pipeline",
+      "priorityScore": 94.8,
+      "estimatedCostUSD": 48500000,
+      "estimatedCostLocal": "₹420 Crore",
+      "targetBeneficiaries": "1.45 Million Citizens",
+      "sdgTargets": [
+        "SDG 6: Clean Water",
+        "SDG 3: Good Health",
+        "SDG 7: Clean Energy"
+      ],
+      "leadAgency": "Ministry of Jal Shakti / Jal Jeevan Mission & UP Jal Nigam",
+      "nationalStrategicPlan": "Jal Jeevan Mission & Digital Public Infrastructure for Utilities",
+      "dpiTechnologyEnablers": [
+        "IoT Flow & Quality Telemetry (Open API)",
+        "Aadhaar/UPI-enabled Jal Smart Card Token Kiosks",
+        "Automated Leakage AI Alert System"
+      ],
+      "mcdaBreakdown": {
+        "demandScore": 96,
+        "deficitScore": 92,
+        "vulnerabilityScore": 88,
+        "sdgMultiplier": 95,
+        "feasibility": 91
+      }
+    },
+    {
+      "@type": "AIRecommendedInfrastructureInitiative",
+      "projectCode": "PRJ-IN-02",
+      "title": "Kosi-Gandak Flood-Resilient Agri-Corridor & Bridge Modernization",
+      "priorityScore": 92.4,
+      "estimatedCostUSD": 72000000,
+      "estimatedCostLocal": "₹622 Crore",
+      "targetBeneficiaries": "2.10 Million Farmers & Citizens",
+      "sdgTargets": [
+        "SDG 9: Industry & Infra",
+        "SDG 1: No Poverty",
+        "SDG 11: Sustainable Communities"
+      ],
+      "leadAgency": "Bihar State Road Development Corp & PMGSY",
+      "nationalStrategicPlan": "PM Gram Sadak Yojana & Gati Shakti Multi-Modal Master Plan",
+      "dpiTechnologyEnablers": [
+        "GIS Gati Shakti Alignment Integration",
+        "Citizen Road Quality Crowdsource Verification Bot",
+        "Real-Time Disaster Routing AI"
+      ],
+      "mcdaBreakdown": {
+        "demandScore": 94,
+        "deficitScore": 95,
+        "vulnerabilityScore": 93,
+        "sdgMultiplier": 88,
+        "feasibility": 85
+      }
+    },
+    {
+      "@type": "AIRecommendedInfrastructureInitiative",
+      "projectCode": "PRJ-IN-03",
+      "title": "Thar Solar Tele-Clinic Grid: 100% Off-Grid Solar Health & Diagnostic Kiosks",
+      "priorityScore": 89.6,
+      "estimatedCostUSD": 31200000,
+      "estimatedCostLocal": "₹270 Crore",
+      "targetBeneficiaries": "850,000 Desert Inhabitants",
+      "sdgTargets": [
+        "SDG 3: Good Health",
+        "SDG 7: Clean Energy",
+        "SDG 10: Reduced Inequalities"
+      ],
+      "leadAgency": "National Health Mission & Rajasthan Renewable Energy Corp",
+      "nationalStrategicPlan": "Ayushman Bharat Digital Mission (ABDM) & National Solar Mission",
+      "dpiTechnologyEnablers": [
+        "ABDM Digital Health Record & Teleconsultation Sync",
+        "AI-Assisted Point-of-Care Ultrasound & Blood Analyzers",
+        "Solar BESS Remote Battery Health Monitoring"
+      ],
+      "mcdaBreakdown": {
+        "demandScore": 88,
+        "deficitScore": 94,
+        "vulnerabilityScore": 90,
+        "sdgMultiplier": 91,
+        "feasibility": 88
+      }
+    }
+  ]
+}

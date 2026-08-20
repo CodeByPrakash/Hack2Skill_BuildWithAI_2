@@ -23,7 +23,9 @@ export default function Header({
   onSelectTab, 
   onOpenIntakeModal,
   onExportDpg,
-  citizenRequests
+  citizenRequests,
+  isTheaterModeActive,
+  onToggleTheaterMode
 }) {
   const currentCountry = BRICS_COUNTRIES[activeCountryCode] || BRICS_COUNTRIES.IN;
   const recentRequest = citizenRequests[0];
@@ -71,11 +73,20 @@ export default function Header({
         {/* Header Right Action Buttons */}
         <div className="header-actions">
           <button 
+            className={`btn btn-sm ${isTheaterModeActive ? 'btn-emerald' : 'btn-secondary'}`}
+            onClick={onToggleTheaterMode}
+            title="Launch Automated Scripted Video Tour"
+          >
+            <Sparkles size={16} className={isTheaterModeActive ? "text-white" : "text-amber-500"} />
+            <span>{isTheaterModeActive ? "Exit Tour Mode" : "🎬 Video Tour Mode"}</span>
+          </button>
+
+          <button 
             className="btn btn-secondary btn-sm"
             onClick={onExportDpg}
             title="Download Standardized DPG JSON-LD Payload"
           >
-            <DownloadCloud size={16} className="text-cyan-400" />
+            <DownloadCloud size={16} className="text-cyan-600" />
             <span>DPG Export</span>
           </button>
 

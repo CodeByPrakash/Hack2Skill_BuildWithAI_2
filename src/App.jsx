@@ -9,6 +9,7 @@ import CitizenTracker from './components/CitizenTracker';
 import AnalyticsDashboard from './components/AnalyticsDashboard';
 import DPGStandardsView from './components/DPGStandardsView';
 import CitizenIntakeModal from './components/CitizenIntakeModal';
+import VideoDemoTheater from './components/VideoDemoTheater';
 import { BRICS_COUNTRIES } from './data/bricsData';
 import { INITIAL_CITIZEN_REQUESTS } from './data/initialRequests';
 import { RECOMMENDED_PROJECTS } from './data/recommendedProjects';
@@ -33,6 +34,9 @@ export default function App() {
 
   // Intake Modal
   const [isIntakeModalOpen, setIsIntakeModalOpen] = useState(false);
+
+  // Theater / Video Tour Mode
+  const [isTheaterModeActive, setIsTheaterModeActive] = useState(false);
 
   // Handler for adding new citizen request from any channel
   const handleAddNewRequest = (newReq) => {
@@ -67,6 +71,8 @@ export default function App() {
         onOpenIntakeModal={() => setIsIntakeModalOpen(true)}
         onExportDpg={handleExportDpg}
         citizenRequests={citizenRequests}
+        isTheaterModeActive={isTheaterModeActive}
+        onToggleTheaterMode={() => setIsTheaterModeActive(prev => !prev)}
       />
 
       {/* Main Content Area based on Active Tab */}
@@ -174,6 +180,16 @@ export default function App() {
         activeCountryCode={activeCountryCode}
         onSubmitNewRequest={handleAddNewRequest}
       />
+
+      {/* Interactive Scripted Video Demo Tour Theater */}
+      {isTheaterModeActive && (
+        <VideoDemoTheater 
+          onSelectTab={setActiveTab}
+          onSelectCountry={handleSelectCountry}
+          activeCountryCode={activeCountryCode}
+          onClose={() => setIsTheaterModeActive(false)}
+        />
+      )}
     </div>
   );
 }
