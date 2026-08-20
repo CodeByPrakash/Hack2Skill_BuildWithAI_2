@@ -19,7 +19,6 @@
 | 📊 **Gamma AI Presentation Deck** | 10-card, copy-paste ready presentation pitch deck refined for [Gamma.app](https://gamma.app). | [**`GAMMA_AI_PRESENTATION_DECK.md`**](./GAMMA_AI_PRESENTATION_DECK.md) |
 | 🎥 **Video Demo & Pitch Script** | Word-for-word spoken pitch, scene timeline, on-screen text popups, and recording instructions. | [**`VIDEO_DEMO_SCRIPT.md`**](./VIDEO_DEMO_SCRIPT.md) |
 | 🎬 **Strategic Documentary Blueprint** | Deep-dive strategic analysis from the **CEO**, **CMO**, and **CTO / Developer** perspectives. | [**`DOCUMENTARY_AND_STRATEGIC_BLUEPRINT.md`**](./DOCUMENTARY_AND_STRATEGIC_BLUEPRINT.md) |
-| **Demo Video** | Google Drive Uploaded Video Link | [**`Video`**](https://drive.google.com/file/d/1f6vi3iiabITak7TNTMVb8WE6V2H_YBbi/view?usp=sharing) |
 
 ---
 
@@ -234,9 +233,27 @@ BRICS InfraPulse AI features a state-of-the-art **Claymorphism Design System** d
 
 ---
 
-## 👥 Authors & Team TechDrive
+## 👥 Meet TeamDrive (TechDrive)
+<div align="center">
+  <img src="./public/team_drive_logo.jpg" alt="TeamDrive Logo" width="220" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); margin-bottom: 12px;" />
+  <h3>🚀 TeamDrive — Architecting Sovereign Digital Public Infrastructure</h3>
+  <p><em>"Bridging Grassroots Citizen Voice and Sovereign Capital Allocation across the Global South."</em></p>
+</div>
 
-* **Lead Developer & Architect**: [**Prakash (@CodeByPrakash)**](https://github.com/CodeByPrakash)
-* **GitHub Repository**: [**`https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2`**](https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2)
-* **Hackathon**: Built for **Code for Communities 2.0 (Hack2Skill)** by **Team TechDrive**.  
-* **Track**: *Track 1 — AI for Digital Public Infrastructure & Governance (BRICS Innovation Theme).*
+### 🌟 About Our Team
+**TeamDrive (TechDrive)** is an engineering and AI innovation collective dedicated to building scalable, open-source **Digital Public Goods (DPGs)** for public governance, civic accountability, and societal empowerment. 
+
+Participating in **Code for Communities 2.0 (Hack2Skill)** under **Track 1: AI for Digital Public Infrastructure & Governance**, our mission is to eliminate bureaucratic silos and democratize infrastructure development for **3.6 billion citizens across BRICS+ nations**.
+
+### 🛠️ Core Engineering Strengths & DNA
+* **Edge-to-Cloud Multilingual AI:** Designing zero-friction speech recognition, dialect normalization, and client-side differential privacy protocols for non-literate and multilingual populations.
+* **Geospatial GIS & Spatial Data Fusion:** Integrating real-time citizen demand telemetry with national census demographics and infrastructure deficit indices.
+* **Algorithmic Public Finance & MCDA:** Implementing explainable mathematical Multi-Criteria Decision Analysis and Pareto Knapsack capital budget optimization.
+* **DPGA & Beckn Protocol Adherence:** Championing 100% compliance with UN Digital Public Goods Alliance criteria, open data schemas (JSON-LD), and interoperable sovereign protocols.
+
+### 👤 Leadership & Team Profile
+* **Lead Architect & Full-Stack DPG Engineer:** [**Prakash (@CodeByPrakash)**](https://github.com/CodeByPrakash)
+  * *Focus:* System Architecture, Geospatial GIS Pipelines, Multilingual AI Engine, Mathematical Optimization & UX Design.
+* **Repository:** [**`https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2`**](https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2)
+* **Hackathon:** Code for Communities 2.0 (Hack2Skill)
+* **Theme:** BRICS Innovation (Problem Statement 1)

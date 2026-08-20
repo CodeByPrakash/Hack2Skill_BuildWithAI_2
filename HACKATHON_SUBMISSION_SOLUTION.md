@@ -94,3 +94,17 @@ We built **BRICS InfraPulse AI**, an end-to-end, sovereign **Digital Public Good
 ## 📝 SECTION 7: 100-WORD EXECUTIVE ABSTRACT (For Quick Form Submissions)
 
 > *"BRICS InfraPulse AI is a scalable, multilingual Digital Public Good (DPG) that solves the trillion-dollar disconnect between citizen infrastructure demands and sovereign capital spending across BRICS+ nations. By aggregating voice notes in 40+ native dialects, WhatsApp messages, and 2G SMS into a unified multi-layer GIS engine, it fuses citizen demand with census demographic vulnerability and infrastructure deficit indices. An AI Policymaker Co-Pilot uses explainable Multi-Criteria Decision Analysis (MCDA) and a Pareto Budget Simulator to recommend bankable, high-impact project tenders, reducing fiscal waste by 42% and providing citizens with a 6-stage cryptographic tracking receipt."*
+
+---
+
+## 👥 SECTION 8: TEAM OVERVIEW & DESCRIPTION (TeamDrive)
+
+* **Team Name:** **TeamDrive (TechDrive)**
+* **Mission:** *Architecting Next-Generation Sovereign Digital Public Infrastructure (DPI) & AI Governance Platforms across the Global South.*
+* **Lead Developer & Architect:** [**Prakash (@CodeByPrakash)**](https://github.com/CodeByPrakash)
+* **GitHub Repository:** [**`https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2`**](https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2)
+* **Team Core Competencies:**
+  1. *Multilingual Speech & Edge AI:* Zero-friction voice recognition in 40+ native dialects with edge differential privacy.
+  2. *Geospatial Data Fusion:* Real-time demand hotspot clustering combined with demographic census indices on interactive GIS maps.
+  3. *Public Finance Optimization:* Multi-Criteria Decision Analysis (MCDA) and Pareto Knapsack budget allocation math.
+  4. *DPGA & Open Standards:* 100% UN DPGA v2.1 compliance and Beckn-DPI protocol readiness.
