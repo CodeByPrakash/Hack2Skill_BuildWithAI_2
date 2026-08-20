@@ -1,5 +1,7 @@
 # 🎬 BRICS InfraPulse AI: The Strategic Documentary & Master Blueprint
 ### *Bridging Grassroots Citizen Voice and Sovereign Capital Allocation across the Global South*
+**Lead Developer:** [**Prakash (@CodeByPrakash)**](https://github.com/CodeByPrakash) • **Repository:** [**`https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2`**](https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2)  
+**Hackathon:** Code for Communities 2.0 • Track 1: AI for Digital Public Infrastructure & Governance
 
 ---
 

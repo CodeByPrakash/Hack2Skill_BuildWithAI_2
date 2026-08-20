@@ -1,10 +1,24 @@
 # 🌐 BRICS InfraPulse AI (*ИнфраПульс / 基础设施脉搏 / PulsoInfra / इन्फ्रापल्स*)
 ### A Scalable, Multilingual Digital Public Good (DPG) Platform for Citizen Infrastructure Intelligence & Policymaker Governance Co-Pilot
 
-[![Track](https://img.shields.io/badge/Track-AI%20for%20Digital%20Public%20Infrastructure%20%26%20Governance-0284c7?style=for-the-badge)](https://hack2skill.com/event/codeforcommunities2)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Hack2Skill__BuildWithAI__2-181717?style=for-the-badge&logo=github)](https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2)
+[![Author](https://img.shields.io/badge/Author-CodeByPrakash-0284c7?style=for-the-badge&logo=github)](https://github.com/CodeByPrakash)
+[![Track](https://img.shields.io/badge/Track-AI%20for%20Digital%20Public%20Infrastructure%20%26%20Governance-0369a1?style=for-the-badge)](https://hack2skill.com/event/codeforcommunities2)
 [![BRICS Theme](https://img.shields.io/badge/Theme-Innovation-059669?style=for-the-badge)](https://hack2skill.com/event/codeforcommunities2)
 [![DPG Standard](https://img.shields.io/badge/DPG%20Alliance-Compliant%20v2.1-7c3aed?style=for-the-badge)](https://digitalpublicgoods.net/)
 [![Design](https://img.shields.io/badge/Design-Claymorphism%20Cream%20%26%20White-d97706?style=for-the-badge)]()
+
+---
+
+## ⚡ Quick Evaluation & Navigation Index
+> 💡 *Click any link below for instant evaluation of our hackathon submission artifacts, pitch decks, and technical blueprints:*
+
+| Document | Purpose & Description | Fast GitHub Link |
+| :--- | :--- | :--- |
+| 🏆 **Official Submission Solution** | Complete problem statement breakdown, solution architecture, and impact metrics for Hack2Skill judges. | [**`HACKATHON_SUBMISSION_SOLUTION.md`**](./HACKATHON_SUBMISSION_SOLUTION.md) |
+| 📊 **Gamma AI Presentation Deck** | 10-card, copy-paste ready presentation pitch deck refined for [Gamma.app](https://gamma.app). | [**`GAMMA_AI_PRESENTATION_DECK.md`**](./GAMMA_AI_PRESENTATION_DECK.md) |
+| 🎥 **Video Demo & Pitch Script** | Word-for-word spoken pitch, scene timeline, on-screen text popups, and recording instructions. | [**`VIDEO_DEMO_SCRIPT.md`**](./VIDEO_DEMO_SCRIPT.md) |
+| 🎬 **Strategic Documentary Blueprint** | Deep-dive strategic analysis from the **CEO**, **CMO**, and **CTO / Developer** perspectives. | [**`DOCUMENTARY_AND_STRATEGIC_BLUEPRINT.md`**](./DOCUMENTARY_AND_STRATEGIC_BLUEPRINT.md) |
 
 ---
 
@@ -13,8 +27,10 @@
 | Dimension | Details |
 | :--- | :--- |
 | **Hackathon Event** | [Code for Communities 2.0 (Hack2Skill)](https://hack2skill.com/event/codeforcommunities2/registration?utm_campaign=codeforcommunities2&utm_term=6a8701b7a1ad3881e434e0a5&utm_medium=url&isRequest=true&team_name=TechDrive) |
+| **Repository** | [**`https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2`**](https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2) |
+| **Lead Developer** | [**`@CodeByPrakash`**](https://github.com/CodeByPrakash) |
 | **Track** | **Track 1 — AI for Digital Public Infrastructure & Governance** |
-| **BRICS Theme** | **Innovation** |
+| **BRICS Theme** | **Innovation (Problem Statement 1)** |
 | **Problem Statement 1** | *Build a scalable, multilingual AI platform — designed as a Digital Public Good — that aggregates citizen development requests via voice, text, and messaging apps across diverse linguistic regions. The system should analyse large datasets combining citizen feedback with national demographic data, infrastructure indices, and public investment plans, surfacing demand hotspots and recommending high-priority development projects to national policymakers across BRICS nations.* |
 
 ---
@@ -177,7 +193,7 @@ BRICS InfraPulse AI features a state-of-the-art **Claymorphism Design System** d
 | **Typography** | Google Fonts (`Outfit`, `Inter`, `JetBrains Mono`) |
 | **Geospatial GIS** | Leaflet, React-Leaflet, CartoDB Voyager Light Tiles |
 | **Data Visualization** | Chart.js, React-Chartjs-2 (Radar, Bar, Doughnut) |
-| **Speech & Audio AI** | Web Speech Recognition (STT), SpeechSynthesis API (TTS), Audio Waveform |
+| **Speech & Audio AI** | Web Speech Recognition (STT), Realistic Neural Female Voice Synthesis (TTS), Waveform |
 | **Iconography & FX** | Lucide React, Canvas-Confetti |
 | **Standards & Specs** | Digital Public Goods Alliance (DPGA), JSON-LD, Beckn Protocol |
 
@@ -193,8 +209,8 @@ BRICS InfraPulse AI features a state-of-the-art **Claymorphism Design System** d
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YourTeam/BuildByAI_CodeForCommu.git
-   cd BuildByAI_CodeForCommu
+   git clone https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2.git
+   cd Hack2Skill_BuildWithAI_2
    ```
 
 2. **Install dependencies**:
@@ -219,5 +235,7 @@ BRICS InfraPulse AI features a state-of-the-art **Claymorphism Design System** d
 
 ## 👥 Authors & Team TechDrive
 
-Built for the **Code for Communities 2.0 Hackathon** by **Team TechDrive**.  
-*Theme: BRICS Innovation • Track 1: AI for Digital Public Infrastructure & Governance.*
+* **Lead Developer & Architect**: [**Prakash (@CodeByPrakash)**](https://github.com/CodeByPrakash)
+* **GitHub Repository**: [**`https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2`**](https://github.com/CodeByPrakash/Hack2Skill_BuildWithAI_2)
+* **Hackathon**: Built for **Code for Communities 2.0 (Hack2Skill)** by **Team TechDrive**.  
+* **Track**: *Track 1 — AI for Digital Public Infrastructure & Governance (BRICS Innovation Theme).*
